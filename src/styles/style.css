@@ -4,7 +4,6 @@
 }
 
 body {
-  /* background-image: url('../images/todo.jpg'); */
   background-size: cover;
   font-family: 'Itim', cursive;
 }
@@ -16,7 +15,6 @@ nav {
   text-align: center;
   font-size: 30px;
 }
-
 
 .container {
   height: 130vh;
@@ -44,7 +42,6 @@ nav {
   background-color: var(--text-clr);
   color: #fff;
   cursor: pointer;
-
 }
 
 .app-name {
@@ -52,7 +49,6 @@ nav {
   font-family: 'Itim', cursive;
   font-size: 70px;
   color: var(--primary-clr);
-  font-family: monospace;
 }
 
 .project-ctn {
@@ -95,8 +91,6 @@ nav {
   width: 60%;
   max-height: 450px;
   overflow-x: hidden;
-
-  /* scroll */
 }
 
 .task-item {
