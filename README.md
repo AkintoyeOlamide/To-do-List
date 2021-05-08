@@ -1,7 +1,7 @@
 # Todo-List-App
 A simple todo list built with JavaScript using local storage.
 
-![](./scrn.png)
+![](/scrn.png)
 
 ## [Live Link](https://rawcdn.githack.com/AkintoyeOlamide/To-do-List/e99c9a595aabd67d6a35d196327e9b87596965f4/dist/index.html)
 
