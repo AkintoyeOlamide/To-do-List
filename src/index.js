@@ -1,7 +1,12 @@
 import './styles/style.css';
 
 import {
-  project, addItem, createTodo, saveForm, edit, todoForm,
+  project,
+  addItem,
+  createTodo,
+  saveForm,
+  edit,
+  todoForm,
 } from './todo-controls';
 
 let mylist = [];
@@ -237,7 +242,7 @@ function newProject() {
 
 const defaultProject = () => {
   mylist = [];
-  const p = project('First Todo!', []);
+  const p = project('Default', []);
   addItem(p, mylist);
 };
 
