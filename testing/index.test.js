@@ -24,11 +24,10 @@ it('should pass if the properties are correct', () => {
   expect(action).toStrictEqual(undefined);
 });
 
-
 const addItem = (item, array) => array.push(item);
 const project = (name, list) => ({
   name,
-  list
+  list,
 });
 let mylist = [];
 const defaultProject = () => {
