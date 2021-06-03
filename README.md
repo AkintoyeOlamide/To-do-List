@@ -14,6 +14,11 @@ A simple todo list built with JavaScript using local storage.
 - Vscode
 - Eslint
 
+**To Run the test suit:**
+
+1. Run "npm install"
+2. Run "npm run test"
+
 
 ### Setup
 
