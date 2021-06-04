@@ -51,3 +51,31 @@ it('Creating New Todo', () => {
   };
   expect(action).toStrictEqual(expectation);
 });
+
+// negative tests
+
+// it('should pass if the properties are correct', () => {
+//   const action = createTodo();
+//   expect(action.title).toBeFalsy('Tife');
+// });
+
+// it('should pass if the properties are correct', () => {
+//   const action = createTodo();
+//   expect(action.description).toBeFalsy('Tife-List');
+// });
+
+// it('should pass if the properties are correct', () => {
+//   const action = createTodo();
+//   expect(action.priority).toBeFalsy('low');
+// });
+
+// it('Creating New Todo', () => {
+//   const action = createTodo();
+//   const expectation = {
+//     title: 'Tife',
+//     description: 'Tife-List',
+//     dueDate: 2020 - 11 - 20,
+//     priority: 'low',
+//   };
+//   expect(action).toBeFalsy(expectation);
+// });
