@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "webpack-dev-server --mode developement --open"
   },
   "repository": {
@@ -20,10 +20,13 @@
   },
   "homepage": "https://github.com/AkintoyeOlamide/To-do-List#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.14.4",
     "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.0.2",
     "eslint": "^7.26.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
+    "jest": "^27.0.4",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
