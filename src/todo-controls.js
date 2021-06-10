@@ -31,5 +31,6 @@ const edit = (todo) => {
 };
 
 export {
-  project, addItem, createTodo, saveForm, edit, todoForm,
+  project, addItem, createTodo, saveForm, edit, todoForm
 };
+

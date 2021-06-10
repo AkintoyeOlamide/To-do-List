@@ -1,4 +1,4 @@
-import './styles/style.css';
+// import './styles/style.css';
 
 import {
   project,
@@ -262,3 +262,5 @@ const previous = () => {
 };
 
 previous();
+
+export { clearForm, defaultProject, store, newProject, showList, showtodos };
