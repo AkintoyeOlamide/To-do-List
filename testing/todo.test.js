@@ -1,4 +1,4 @@
-import createTodo from '../src/todo-controls'
+import createTodo from '../src/todo-controls';
 
 it('should pass if the properties are correct', () => {
   const action = createTodo();

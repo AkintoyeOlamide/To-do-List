@@ -263,4 +263,6 @@ const previous = () => {
 
 previous();
 
-export { clearForm, defaultProject, store, newProject, showList, showtodos };
+export {
+  clearForm, defaultProject, store, newProject, showList, showtodos,
+};
